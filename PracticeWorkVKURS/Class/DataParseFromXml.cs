@@ -16,11 +16,14 @@ namespace PracticeWorkVKURS.Class
     {
         public static (List<string[]> ls_banksData, SortedDictionary<int, List<string[]>> dic_currencyData) GetBanksAndCurrenciesData()
         {
-            List<string[]> ls_banksData = new List<string[]>();
+            List<string[]> ls_banksData = new List<string[]>();// 0 - id, 1 - name, 2 - region, 3 - city, 4 - address 
             SortedDictionary <int, List<string[]>> dic_currencyData = new SortedDictionary<int, List<string[]>> ();
 
-            XmlDocument xDoc = new XmlDocument();  
+            Dictionary<string, string> dic_currenciesAssociation = new Dictionary<string, string>();
+            Dictionary<string, string> dic_regionsAssociation = new Dictionary<string, string>();
+            Dictionary<string, string> dic_citiesAssociation = new Dictionary<string, string>();
 
+            XmlDocument xDoc = new XmlDocument();  
             xDoc.Load("http://resources.finance.ua/ru/public/currency-cash.xml");//загрузили эллемент 
             XmlElement xSource = xDoc.DocumentElement;//корневой эллемент
             foreach(XmlNode xnodes in xSource) 
@@ -70,9 +73,6 @@ namespace PracticeWorkVKURS.Class
                                                         currency.Attributes.GetNamedItem("br").Value,
                                                         currency.Attributes.GetNamedItem("ar").Value
                                                     };
-                                                    //currenciesInfo[0] = 
-                                                    //currenciesInfo[1] = 
-                                                    //currenciesInfo[2] = 
                                                     currencyList.Add(currenciesInfo);
                                                 }
                                                 break;
@@ -90,19 +90,27 @@ namespace PracticeWorkVKURS.Class
                             }
                         case "c":
                             {
+                                dic_currenciesAssociation.Add(xnode.Attributes.GetNamedItem("id").Value, xnode.Attributes.GetNamedItem("title").Value);
                                 break;
                             }
                         case "region":
                             {
+                                dic_regionsAssociation.Add(xnode.Attributes.GetNamedItem("id").Value, xnode.Attributes.GetNamedItem("title").Value);
                                 break;
                             }
                         case "city":
                             {
+                                dic_citiesAssociation.Add(xnode.Attributes.GetNamedItem("id").Value, xnode.Attributes.GetNamedItem("title").Value);
                                 break;
                             }
                         default: break;
                     }
                 }
+            }
+            foreach (var it in ls_banksData)
+            {
+                it[2] = dic_regionsAssociation[it[2]];
+                it[3] = dic_citiesAssociation[it[3]];
             }
             return (ls_banksData, dic_currencyData);
         }

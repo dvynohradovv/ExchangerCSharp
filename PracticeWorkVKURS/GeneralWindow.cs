@@ -39,14 +39,12 @@ namespace PracticeWorkVKURS
                 listViewBanks.Items.Add(oneItem);
             }
         }
-
         private void listViewBanks_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int tmp_index;
             listViewCurrencies.Items.Clear();
             if (listViewBanks.SelectedItems.Count != 0)
             {
-                tmp_index = Convert.ToInt32(listViewBanks.FocusedItem.SubItems[0].Text);
+                int tmp_index = Convert.ToInt32(listViewBanks.FocusedItem.SubItems[0].Text);
                 foreach (var it in _FullData.dic_currencyData[tmp_index])
                 {
                     ListViewItem oneItem = new ListViewItem(it);
@@ -56,10 +54,9 @@ namespace PracticeWorkVKURS
             }
             else
             {
-                tmp_index = -1;
-                string[] str = { "*", "*", "*" };
+                string[] str = { "...", "...", "..." };
                 ListViewItem oneItem = new ListViewItem(str);
-                listViewBanks.Items.Add(oneItem);
+                listViewCurrencies.Items.Add(oneItem);
             }
             
         }

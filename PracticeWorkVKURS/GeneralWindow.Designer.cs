@@ -30,9 +30,6 @@
         {
             this.buttonRefresh = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.listViewBanks = new System.Windows.Forms.ListView();
@@ -44,14 +41,18 @@
             this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonRefresh
             // 
+            this.buttonRefresh.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonRefresh.AutoSize = true;
             this.buttonRefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRefresh.Location = new System.Drawing.Point(7, 143);
+            this.buttonRefresh.Location = new System.Drawing.Point(280, 96);
             this.buttonRefresh.Name = "buttonRefresh";
             this.buttonRefresh.Size = new System.Drawing.Size(113, 35);
             this.buttonRefresh.TabIndex = 1;
@@ -61,53 +62,23 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(7, 39);
+            this.comboBox2.Location = new System.Drawing.Point(13, 15);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(226, 33);
             this.comboBox2.TabIndex = 5;
-            this.comboBox2.Text = "выберите валюту";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(7, 3);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(226, 30);
-            this.textBox1.TabIndex = 4;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(341, 149);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(119, 29);
-            this.checkBox2.TabIndex = 3;
-            this.checkBox2.Text = "Продажа";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(466, 149);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(109, 29);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "Покупка";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.comboBox2.Text = "отображение валюты";
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            this.panel1.Controls.Add(this.comboBox2);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.checkBox1);
-            this.panel1.Controls.Add(this.checkBox2);
+            this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.buttonRefresh);
+            this.panel1.Controls.Add(this.comboBox2);
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.panel1.Location = new System.Drawing.Point(12, 531);
+            this.panel1.Location = new System.Drawing.Point(596, 387);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(578, 184);
+            this.panel1.Size = new System.Drawing.Size(406, 322);
             this.panel1.TabIndex = 1;
             // 
             // panel2
@@ -128,18 +99,20 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.listViewBanks.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(231)))), ((int)(((byte)(220)))));
+            this.listViewBanks.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.listViewBanks.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader0,
             this.columnHeader1,
             this.columnHeader2,
-            this.columnHeader3});
-            this.listViewBanks.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.columnHeader3,
+            this.columnHeader4});
+            this.listViewBanks.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listViewBanks.FullRowSelect = true;
             this.listViewBanks.HideSelection = false;
             this.listViewBanks.Location = new System.Drawing.Point(12, 12);
             this.listViewBanks.MultiSelect = false;
             this.listViewBanks.Name = "listViewBanks";
-            this.listViewBanks.Size = new System.Drawing.Size(578, 513);
+            this.listViewBanks.Size = new System.Drawing.Size(578, 697);
             this.listViewBanks.TabIndex = 6;
             this.listViewBanks.UseCompatibleStateImageBehavior = false;
             this.listViewBanks.View = System.Windows.Forms.View.Details;
@@ -148,6 +121,7 @@
             // columnHeader0
             // 
             this.columnHeader0.Text = "id";
+            this.columnHeader0.Width = 0;
             // 
             // columnHeader1
             // 
@@ -156,28 +130,30 @@
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Город";
-            this.columnHeader2.Width = 120;
+            this.columnHeader2.Text = "Регион";
+            this.columnHeader2.Width = 200;
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "Адрес";
-            this.columnHeader3.Width = 120;
+            this.columnHeader3.Text = "Город";
+            this.columnHeader3.Width = 100;
             // 
             // listViewCurrencies
             // 
             this.listViewCurrencies.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.listViewCurrencies.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(231)))), ((int)(((byte)(220)))));
+            this.listViewCurrencies.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.listViewCurrencies.CheckBoxes = true;
             this.listViewCurrencies.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader11,
             this.columnHeader12,
             this.columnHeader13});
-            this.listViewCurrencies.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.listViewCurrencies.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listViewCurrencies.HideSelection = false;
             this.listViewCurrencies.Location = new System.Drawing.Point(596, 12);
             this.listViewCurrencies.Name = "listViewCurrencies";
-            this.listViewCurrencies.Size = new System.Drawing.Size(406, 703);
+            this.listViewCurrencies.Size = new System.Drawing.Size(406, 369);
             this.listViewCurrencies.TabIndex = 8;
             this.listViewCurrencies.UseCompatibleStateImageBehavior = false;
             this.listViewCurrencies.View = System.Windows.Forms.View.Details;
@@ -185,17 +161,31 @@
             // columnHeader11
             // 
             this.columnHeader11.Text = "Валюта";
-            this.columnHeader11.Width = 100;
+            this.columnHeader11.Width = 80;
             // 
             // columnHeader12
             // 
             this.columnHeader12.Text = "Покупка";
-            this.columnHeader12.Width = 100;
+            this.columnHeader12.Width = 90;
             // 
             // columnHeader13
             // 
             this.columnHeader13.Text = "Продажа";
-            this.columnHeader13.Width = 100;
+            this.columnHeader13.Width = 90;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Адрес";
+            this.columnHeader4.Width = 200;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(13, 54);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(226, 33);
+            this.comboBox1.TabIndex = 6;
+            this.comboBox1.Text = "к";
             // 
             // GeneralWindow
             // 
@@ -205,8 +195,8 @@
             this.ClientSize = new System.Drawing.Size(1348, 721);
             this.Controls.Add(this.listViewCurrencies);
             this.Controls.Add(this.listViewBanks);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
             this.Name = "GeneralWindow";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
@@ -217,9 +207,6 @@
 
         #endregion
         private System.Windows.Forms.Button buttonRefresh;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
@@ -232,6 +219,8 @@
         private System.Windows.Forms.ColumnHeader columnHeader11;
         private System.Windows.Forms.ColumnHeader columnHeader12;
         private System.Windows.Forms.ColumnHeader columnHeader13;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 
