@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.buttonRefresh = new System.Windows.Forms.Button();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxCurrencySelector = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxBanksCitySelector = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.listViewBanks = new System.Windows.Forms.ListView();
             this.columnHeader0 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -59,36 +59,38 @@
             this.buttonRefresh.Text = "Обновить";
             this.buttonRefresh.UseVisualStyleBackColor = true;
             // 
-            // comboBox2
+            // comboBoxCurrencySelector
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(13, 15);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(226, 33);
-            this.comboBox2.TabIndex = 5;
-            this.comboBox2.Text = "валюта";
+            this.comboBoxCurrencySelector.FormattingEnabled = true;
+            this.comboBoxCurrencySelector.Location = new System.Drawing.Point(13, 61);
+            this.comboBoxCurrencySelector.Name = "comboBoxCurrencySelector";
+            this.comboBoxCurrencySelector.Size = new System.Drawing.Size(226, 33);
+            this.comboBoxCurrencySelector.TabIndex = 5;
+            this.comboBoxCurrencySelector.Text = "валюта";
+            this.comboBoxCurrencySelector.SelectedIndexChanged += new System.EventHandler(this.comboBoxCurrencySelector_SelectedIndexChanged);
             // 
             // panel1
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.comboBoxBanksCitySelector);
             this.panel1.Controls.Add(this.buttonRefresh);
-            this.panel1.Controls.Add(this.comboBox2);
+            this.panel1.Controls.Add(this.comboBoxCurrencySelector);
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.panel1.Location = new System.Drawing.Point(596, 387);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(406, 322);
             this.panel1.TabIndex = 1;
             // 
-            // comboBox1
+            // comboBoxBanksCitySelector
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(13, 54);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(226, 33);
-            this.comboBox1.TabIndex = 6;
-            this.comboBox1.Text = "город";
+            this.comboBoxBanksCitySelector.FormattingEnabled = true;
+            this.comboBoxBanksCitySelector.Location = new System.Drawing.Point(13, 13);
+            this.comboBoxBanksCitySelector.Name = "comboBoxBanksCitySelector";
+            this.comboBoxBanksCitySelector.Size = new System.Drawing.Size(226, 33);
+            this.comboBoxBanksCitySelector.TabIndex = 6;
+            this.comboBoxBanksCitySelector.Text = "город";
+            this.comboBoxBanksCitySelector.SelectedIndexChanged += new System.EventHandler(this.comboBoxBanksCitySelector_SelectedIndexChanged);
             // 
             // panel2
             // 
@@ -206,7 +208,7 @@
 
         #endregion
         private System.Windows.Forms.Button buttonRefresh;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBoxCurrencySelector;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ListView listViewBanks;
@@ -219,7 +221,7 @@
         private System.Windows.Forms.ColumnHeader columnHeader12;
         private System.Windows.Forms.ColumnHeader columnHeader13;
         private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBoxBanksCitySelector;
     }
 }
 

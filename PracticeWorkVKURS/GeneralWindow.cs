@@ -25,18 +25,21 @@ namespace PracticeWorkVKURS
             Start();
             LoadlistViewBanks();
         }
-
         private ExchangeRates exchangeRates = new ExchangeRates();
+        private string _bankCitySelected = "Все";
+        private string _currencySelected = "Все";
+
         private void Start()
         {
             exchangeRates.RefreshData();
             LoadlistViewBanks();
-
         }
         private void LoadlistViewBanks() //Обновление списка банков
         {
             listViewBanks.Items.Clear();
-            foreach (var it in exchangeRates.BanksData())
+            List<string[]> ls_banks = exchangeRates.BanksData();
+            exchangeRates.ExceptThenThatInLine(ls_banks, _bankCitySelected);
+            foreach (var it in ls_banks)
             {
                 ListViewItem oneItem = new ListViewItem(it);
                 listViewBanks.Items.Add(oneItem);
@@ -45,10 +48,13 @@ namespace PracticeWorkVKURS
         private void listViewBanks_SelectedIndexChanged(object sender, EventArgs e)
         {
             listViewCurrencies.Items.Clear();
+            
             if (listViewBanks.SelectedItems.Count != 0)
             {
                 int tmp_index = Convert.ToInt32(listViewBanks.FocusedItem.SubItems[0].Text);
-                foreach (var it in exchangeRates.CurrenciesData(tmp_index))
+                List<string[]> ls_curriencies = exchangeRates.CurrenciesData(tmp_index);
+                exchangeRates.ExceptThenThatInLine(ls_curriencies, _currencySelected);
+                foreach (var it in ls_curriencies)
                 {
                     ListViewItem oneItem = new ListViewItem(it);
                     listViewCurrencies.Items.Add(oneItem);
@@ -61,6 +67,16 @@ namespace PracticeWorkVKURS
                 listViewCurrencies.Items.Add(oneItem);
             }
             
+        }
+
+        private void comboBoxBanksCitySelector_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            _bankCitySelected = comboBoxBanksCitySelector.SelectedItem.ToString();
+        }
+
+        private void comboBoxCurrencySelector_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            _currencySelected = comboBoxCurrencySelector.SelectedItem.ToString();
         }
     }
 }

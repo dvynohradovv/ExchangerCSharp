@@ -30,6 +30,20 @@ namespace PracticeWorkVKURS
             } 
             return returnData;
         }
+        public void ExceptThenThatInLine(List<string[]> list, string exc)
+        {
+            if (exc != "Все")
+            {
+                foreach (var it in list)
+                {
+                    if (it.Contains(exc))
+                    {
+                        list.Remove(it);
+                    }
+                }
+            }
+
+        }
         public void RefreshData()
         {
             ls_BanksData = DataParseXml.GetBanksAndCurrenciesData();
