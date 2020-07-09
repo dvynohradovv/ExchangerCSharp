@@ -10,17 +10,18 @@ using System.Windows.Forms;
 using System.Security.Cryptography;
 using System.Collections.Specialized;
 using Serialization;
+using System.Xml.Serialization;
+using System.IO;
 
 namespace PracticeWorkVKURS.Class
 {
     static class DataParseXml
     {
-        public static (List<Bank> ls_banks, SortedDictionary<int, List<Currency>> dic_currency) GetBanksAndCurrenciesData()
+        public static List<Bank> GetBanksAndCurrenciesData() 
         {
             string source = DonwloadXmlPage("http://resources.finance.ua/ru/public/currency-cash.xml");
 
             List<Bank> ls_banksData = new List<Bank>();// 0 - id, 1 - name, 2 - region, 3 - city, 4 - address 
-            SortedDictionary<int, List<Currency>> dic_currencyData = new SortedDictionary<int, List<Currency>>();
 
             Dictionary<string, string> dic_currenciesAssociation = new Dictionary<string, string>();
             Dictionary<string, string> dic_regionsAssociation = new Dictionary<string, string>();
@@ -82,7 +83,7 @@ namespace PracticeWorkVKURS.Class
                                         default: break;
                                     }
                                 }
-                                dic_currencyData.Add(Convert.ToInt32(new_bank.Id), new_currenciesList);
+                                new_bank.Currencies = new_currenciesList;
                                 ls_banksData.Add(new_bank);
                                 break;
                             }
@@ -114,15 +115,33 @@ namespace PracticeWorkVKURS.Class
                 it.Region = dic_regionsAssociation[it.Region];
                 it.City = dic_citiesAssociation[it.City];
             }
-            return (ls_banksData, dic_currencyData);
+            SerializeClass(ls_banksData, @"banksXmlData");
+            return ls_banksData;
         }
-        public static void SerializeClass()
+        public static void SerializeClass<T>(T item, string name)
         {
+            string link = string.Format(@"..\..\XmlData\{0}.xml", name);
+            // передаем в конструктор тип класса
+            XmlSerializer formatter = new XmlSerializer(typeof(T));
+            // получаем поток, куда будем записывать сериализованный объект
+            using (FileStream fs = new FileStream(link, FileMode.OpenOrCreate))
+            {
+                formatter.Serialize(fs, item);
 
+                //MessageBox.Show("Успешная сериализация!");
+            }
         }
-        public static void DeserializeXml()
+        public static void DeserializeXml<T>(T item, string name)
         {
+            string link = string.Format(@"..\..\XmlData\{0}.xml", name);
+            XmlSerializer formatter = new XmlSerializer(typeof(T));
+            // десериализация
+            using (FileStream fs = new FileStream(link, FileMode.OpenOrCreate))
+            {
+                T newPerson = (T)formatter.Deserialize(fs);
 
+                //Console.WriteLine("Объект десериализован");
+            }
         }
         private static string DonwloadXmlPage(string link)
         {
@@ -133,8 +152,7 @@ namespace PracticeWorkVKURS.Class
                 WebClient webClient = new WebClient();
 
                 webClient.DownloadFile(link, file);
-                webClient.DownloadFile(link, backup_file);
-
+                File.Copy(file, backup_file);
                 return file;
             }
             catch (Exception)

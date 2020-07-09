@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace PracticeWorkVKURS
 {
-    class ExchangeRates
+    class ExchangeRates 
     {
-        private (List<Bank> ls_banksData, SortedDictionary<int, List<Currency>> dic_currenciesData) _FullData;
+        private List<Bank> ls_BanksData;
         public List<string[]> BanksData()
         {
             List<string[]> returnData = new List<string[]>();
-            foreach (var it in _FullData.ls_banksData)
+            foreach (var it in ls_BanksData)
             {
                 returnData.Add(new string[] { it.Id, it.Name, it.Region, it.City, it.Address });
             }
@@ -24,17 +24,15 @@ namespace PracticeWorkVKURS
         public List<string[]> CurrenciesData(int index)
         {
             List<string[]> returnData = new List<string[]>();
-            foreach (var it in _FullData.dic_currenciesData[index])
+            foreach (var it in ls_BanksData[index].Currencies)
             {
                 returnData.Add(new string[] { it.Name, it.Buy, it.Sold });
-            }
+            } 
             return returnData;
         }
         public void RefreshData()
         {
-            var fullData = DataParseXml.GetBanksAndCurrenciesData();
-            _FullData.ls_banksData = fullData.ls_banks;
-            _FullData.dic_currenciesData = fullData.dic_currency;
+            ls_BanksData = DataParseXml.GetBanksAndCurrenciesData();
         }
     }
 }

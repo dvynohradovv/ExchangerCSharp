@@ -11,6 +11,11 @@ using System.Windows.Forms;
 
 namespace PracticeWorkVKURS
 {
+    //1. Компановка и полировка -  я 
+    //2. Парсер - Влад
+    //3. Сериализация - Саша
+    //4. Формы - Глеб
+    //5. Классовое взаимодействие - Тимур
     public partial class GeneralWindow : Form
     {
         public GeneralWindow()

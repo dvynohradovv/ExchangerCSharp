@@ -25,12 +25,12 @@ namespace Serialization
     [Serializable]
     public class Bank
     {
-        public Bank()
-        { }
-        public string Id { get; set; }
-        public string Name { get; set; }
-        public string Region { get; set; }
-        public string City { get; set; }
-        public string Address { get; set; }
+        public Bank() { }
+        public string Id { get; set; } 
+        public string Name { get; set; } 
+        public string Region { get; set; } 
+        public string City { get; set; } 
+        public string Address { get; set; } 
+        public List<Currency> Currencies {get;set;}
     }
 }
