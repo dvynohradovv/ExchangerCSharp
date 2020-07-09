@@ -16,26 +16,24 @@ namespace PracticeWorkVKURS
         public GeneralWindow()
         {
             InitializeComponent();
-            RefreshData();
 
+            Start();
             LoadlistViewBanks();
-
         }
 
-        private (List<string[]> ls_banksData, SortedDictionary<int, List<string[]>> dic_currencyData) _FullData;
-        private void RefreshData()
+        private ExchangeRates exchangeRates = new ExchangeRates();
+        private void Start()
         {
-            var fullInfo = DataParseFromXml.GetBanksAndCurrenciesData();
-            _FullData.ls_banksData = fullInfo.ls_banksData;
-            _FullData.dic_currencyData = fullInfo.dic_currencyData;
+            exchangeRates.RefreshData();
+            LoadlistViewBanks();
+
         }
         private void LoadlistViewBanks() //Обновление списка банков
         {
             listViewBanks.Items.Clear();
-            foreach (var it in _FullData.ls_banksData)
+            foreach (var it in exchangeRates.BanksData())
             {
                 ListViewItem oneItem = new ListViewItem(it);
-
                 listViewBanks.Items.Add(oneItem);
             }
         }
@@ -45,10 +43,9 @@ namespace PracticeWorkVKURS
             if (listViewBanks.SelectedItems.Count != 0)
             {
                 int tmp_index = Convert.ToInt32(listViewBanks.FocusedItem.SubItems[0].Text);
-                foreach (var it in _FullData.dic_currencyData[tmp_index])
+                foreach (var it in exchangeRates.CurrenciesData(tmp_index))
                 {
                     ListViewItem oneItem = new ListViewItem(it);
-
                     listViewCurrencies.Items.Add(oneItem);
                 }
             }

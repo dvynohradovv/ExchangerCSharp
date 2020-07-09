@@ -46,9 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\Bank.cs" />
     <Compile Include="Class\Currency.cs" />
     <Compile Include="Class\ExchangeRates.cs" />
-    <Compile Include="Class\DataParseFromXml.cs" />
+    <Compile Include="Class\DataParseXml.cs" />
+    <Compile Include="Class\Serialization.cs" />
     <Compile Include="GeneralWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +83,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="XmlData\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
