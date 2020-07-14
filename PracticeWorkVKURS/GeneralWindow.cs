@@ -22,24 +22,93 @@ namespace PracticeWorkVKURS
         {
             InitializeComponent();
 
-            Start();
-            LoadlistViewBanks();
+            RefreshData();
         }
         private ExchangeRates exchangeRates = new ExchangeRates();
-        private string _bankCitySelected = "Все";
-        private string _currencySelected = "Все";
+        private bool InternetAccess;
 
-        private void Start()
+        private void RefreshData()
         {
-            exchangeRates.RefreshData();
+            if(exchangeRates.RefreshData())
+            {
+                buttonInternetStatus.Text = "Подключено";
+            }
+            else
+            {
+                buttonInternetStatus.Text = "Нет подключения";
+            }
+            labelCurrentDateData.Text = exchangeRates.DateData();
+            ComboBoxBanksCitySelectorRefresh();
+            ComboBoxCurrencySelectorRefresh();
             LoadlistViewBanks();
+
         }
+        private void buttonFindBanks_Click(object sender, EventArgs e)//Обновить банки
+        {
+            exchangeRates.buyCheckBoxIsActive = checkBoxBuy.Checked;
+            exchangeRates.sellCheckBoxIsActive = checkBoxSell.Checked;
+
+            string tmp_from = textBoxFrom.Text;
+            string tmp_to = textBoxTo.Text;
+            if (tmp_from.Length == 0) tmp_from = "0";
+            if (tmp_to.Length == 0) tmp_to = "100000";
+            string message = "";
+            double from = 0.0;
+            double to = 10000.0;
+            if (tmp_from == "от" || double.TryParse(tmp_from, out from))
+            {
+                exchangeRates.currencyValueFrom = from;
+            }
+            else
+            {
+                message = "Некорректный ввод параметра 'от'\n";
+            }
+
+            if (tmp_to == "до" || double.TryParse(tmp_to, out to))
+            {
+                exchangeRates.currencyValueTo = to;
+                listViewCurrencies.Items.Clear();
+                LoadlistViewBanks();
+            }
+            else
+            {
+                message += "Некорректный ввод параметра 'до' ";
+                MessageBox.Show(message);
+            }
+
+
+        }
+        //combo box города
+        private void comboBoxBanksCitySelector_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            exchangeRates.onlyWithThatCity = comboBoxBanksCitySelector.SelectedItem.ToString();
+            //LoadlistViewBanks();
+        }
+        private void ComboBoxBanksCitySelectorRefresh()
+        {
+            comboBoxBanksCitySelector.Items.Clear();
+            comboBoxBanksCitySelector.Items.Add("Все города");
+            comboBoxBanksCitySelector.Items.AddRange(exchangeRates.Cities().ToArray());
+        }
+
+        //comboBox валюты
+        private void comboBoxCurrencySelector_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            exchangeRates.onlyWithThatCurrency = comboBoxCurrencySelector.SelectedItem.ToString();
+            //LoadlistViewBanks();
+        }
+        private void ComboBoxCurrencySelectorRefresh()
+        {
+            comboBoxCurrencySelector.Items.Clear();
+            comboBoxCurrencySelector.Items.Add("Все валюты");
+            comboBoxCurrencySelector.Items.AddRange(exchangeRates.Currencies().ToArray());
+        }
+
+        //ListBox
         private void LoadlistViewBanks() //Обновление списка банков
         {
             listViewBanks.Items.Clear();
-            List<string[]> ls_banks = exchangeRates.BanksData();
-            exchangeRates.ExceptThenThatInLine(ls_banks, _bankCitySelected);
-            foreach (var it in ls_banks)
+            foreach (var it in exchangeRates.BanksData())
             {
                 ListViewItem oneItem = new ListViewItem(it);
                 listViewBanks.Items.Add(oneItem);
@@ -48,13 +117,10 @@ namespace PracticeWorkVKURS
         private void listViewBanks_SelectedIndexChanged(object sender, EventArgs e)
         {
             listViewCurrencies.Items.Clear();
-            
             if (listViewBanks.SelectedItems.Count != 0)
             {
                 int tmp_index = Convert.ToInt32(listViewBanks.FocusedItem.SubItems[0].Text);
-                List<string[]> ls_curriencies = exchangeRates.CurrenciesData(tmp_index);
-                exchangeRates.ExceptThenThatInLine(ls_curriencies, _currencySelected);
-                foreach (var it in ls_curriencies)
+                foreach (var it in exchangeRates.BuySell(tmp_index))
                 {
                     ListViewItem oneItem = new ListViewItem(it);
                     listViewCurrencies.Items.Add(oneItem);
@@ -62,21 +128,21 @@ namespace PracticeWorkVKURS
             }
             else
             {
-                string[] str = { "...", "...", "..." };
+                string[] str = { "...", "...", "...", "..." };
                 ListViewItem oneItem = new ListViewItem(str);
                 listViewCurrencies.Items.Add(oneItem);
             }
-            
         }
 
-        private void comboBoxBanksCitySelector_SelectedIndexChanged(object sender, EventArgs e)
+        //ToolMenuStrip
+        
+        private void обновитьИнформациюToolStripMenuItem_Click(object sender, EventArgs e)//меню обновить
         {
-            _bankCitySelected = comboBoxBanksCitySelector.SelectedItem.ToString();
+            RefreshData();
         }
-
-        private void comboBoxCurrencySelector_SelectedIndexChanged(object sender, EventArgs e)
+        private void выйтиToolStripMenuItem_Click(object sender, EventArgs e)//меню выйти
         {
-            _currencySelected = comboBoxCurrencySelector.SelectedItem.ToString();
+            Close();
         }
     }
 }

@@ -17,19 +17,21 @@ namespace PracticeWorkVKURS.Class
 {
     static class DataParseXml
     {
-        public static List<Bank> GetBanksAndCurrenciesData() 
+        public static SourceData GetBanksAndCurrenciesData(out bool internetConnection)
         {
             string source = DonwloadXmlPage("http://resources.finance.ua/ru/public/currency-cash.xml");
-
-            List<Bank> ls_banksData = new List<Bank>();// 0 - id, 1 - name, 2 - region, 3 - city, 4 - address 
-
-            Dictionary<string, string> dic_currenciesAssociation = new Dictionary<string, string>();
-            Dictionary<string, string> dic_regionsAssociation = new Dictionary<string, string>();
-            Dictionary<string, string> dic_citiesAssociation = new Dictionary<string, string>();
-
+            SourceData sourceData = new SourceData();
+            if(source == "false")
+            {
+                sourceData = DeserializeXml(sourceData, @"sourceData");
+                internetConnection = false;
+                return sourceData;
+            }
+            internetConnection = true;
             XmlDocument xDoc = new XmlDocument();
             xDoc.Load(source);//загрузили эллемент
             XmlElement xSource = xDoc.DocumentElement;//корневой эллемент
+            sourceData.Date = xSource.Attributes.GetNamedItem("date").Value;
             foreach (XmlNode xnodes in xSource)
             {
                 foreach (XmlNode xnode in xnodes)
@@ -38,10 +40,10 @@ namespace PracticeWorkVKURS.Class
                     {
                         case "organization":
                             {
-                                Bank new_bank = new Bank();
-                                List<Currency> new_currenciesList = new List<Currency>();
+                                Organization new_bank = new Organization();
+                                List<BuySell> new_currenciesList = new List<BuySell>();
 
-                                new_bank.Id = ls_banksData.Count.ToString();
+                                new_bank.Id = sourceData.Organizations.Count.ToString();
                                 foreach (XmlNode childnode in xnode)
                                 {
                                     switch (childnode.Name)
@@ -70,7 +72,7 @@ namespace PracticeWorkVKURS.Class
                                             {
                                                 foreach (XmlNode currency in childnode)
                                                 {
-                                                    Currency new_currency = new Currency
+                                                    BuySell new_currency = new BuySell
                                                         (
                                                             currency.Attributes.GetNamedItem("id").Value,
                                                             currency.Attributes.GetNamedItem("br").Value,
@@ -84,7 +86,7 @@ namespace PracticeWorkVKURS.Class
                                     }
                                 }
                                 new_bank.Currencies = new_currenciesList;
-                                ls_banksData.Add(new_bank);
+                                sourceData.Organizations.Add(new_bank);
                                 break;
                             }
                         case "org_type":
@@ -93,30 +95,28 @@ namespace PracticeWorkVKURS.Class
                             }
                         case "c":
                             {
-                                dic_currenciesAssociation.Add(xnode.Attributes.GetNamedItem("id").Value, xnode.Attributes.GetNamedItem("title").Value);
+                                sourceData.Currencies.Add(new Currency(xnode.Attributes.GetNamedItem("id").Value, xnode.Attributes.GetNamedItem("title").Value));
                                 break;
                             }
                         case "region":
                             {
-                                dic_regionsAssociation.Add(xnode.Attributes.GetNamedItem("id").Value, xnode.Attributes.GetNamedItem("title").Value);
+                                sourceData.Regions.Add(new Region(xnode.Attributes.GetNamedItem("id").Value, xnode.Attributes.GetNamedItem("title").Value));
                                 break;
                             }
                         case "city":
                             {
-                                dic_citiesAssociation.Add(xnode.Attributes.GetNamedItem("id").Value, xnode.Attributes.GetNamedItem("title").Value);
+                                sourceData.Cities.Add(new City(xnode.Attributes.GetNamedItem("id").Value, xnode.Attributes.GetNamedItem("title").Value));
                                 break;
                             }
                         default: break;
                     }
                 }
             }
-            foreach (var it in ls_banksData)
-            {
-                it.Region = dic_regionsAssociation[it.Region];
-                it.City = dic_citiesAssociation[it.City];
-            }
-            SerializeClass(ls_banksData, @"banksXmlData");
-            return ls_banksData;
+
+            sourceData.StructSourceData();
+            SerializeClass(sourceData, @"sourceData");
+            return sourceData;
+
         }
         public static void SerializeClass<T>(T item, string name)
         {
@@ -127,11 +127,9 @@ namespace PracticeWorkVKURS.Class
             using (FileStream fs = new FileStream(link, FileMode.OpenOrCreate))
             {
                 formatter.Serialize(fs, item);
-
-                //MessageBox.Show("Успешная сериализация!");
             }
         }
-        public static void DeserializeXml<T>(T item, string name)
+        public static T DeserializeXml<T>(T item, string name)
         {
             string link = string.Format(@"..\..\XmlData\{0}.xml", name);
             XmlSerializer formatter = new XmlSerializer(typeof(T));
@@ -139,8 +137,7 @@ namespace PracticeWorkVKURS.Class
             using (FileStream fs = new FileStream(link, FileMode.OpenOrCreate))
             {
                 T newPerson = (T)formatter.Deserialize(fs);
-
-                //Console.WriteLine("Объект десериализован");
+                return newPerson;
             }
         }
         private static string DonwloadXmlPage(string link)
@@ -152,12 +149,13 @@ namespace PracticeWorkVKURS.Class
                 WebClient webClient = new WebClient();
 
                 webClient.DownloadFile(link, file);
-                File.Copy(file, backup_file);
+                File.Copy(file, backup_file, true);
                 return file;
             }
             catch (Exception)
             {
-                return backup_file;
+                MessageBox.Show("Отсутствует подключение к интернету! Данные не будут обновлены!");
+                return "false";
             }
             
         }

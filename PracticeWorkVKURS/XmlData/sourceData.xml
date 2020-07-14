@@ -1,0 +1,3249 @@
+<?xml version="1.0"?>
+<SourceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Date>2020-07-14T15:18:03+03:00</Date>
+  <Organizations>
+    <Organization>
+      <Name>А-Банк</Name>
+      <Id>0</Id>
+      <Region>Днепропетровская область</Region>
+      <City>Днепр</City>
+      <Address>ул. Батумская, 11</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.5000</Buy>
+          <Sell>31.0000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>26.9000</Buy>
+          <Sell>27.3000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Агропросперис Банк</Name>
+      <Id>1</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Дегтяревская, 27Т (буква А)</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.2000</Buy>
+          <Sell>30.7000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.2200</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Айбокс Банк</Name>
+      <Id>2</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Деловая, 9А</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.3000</Buy>
+          <Sell>30.7000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.2000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Аккордбанк</Name>
+      <Id>3</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Стеценко, 6</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.4600</Buy>
+          <Sell>30.6400</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.1900</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Альпари Банк</Name>
+      <Id>4</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Тарасовская, 19</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.4000</Buy>
+          <Sell>30.7000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0500</Buy>
+          <Sell>27.2500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Альтбанк</Name>
+      <Id>5</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Вузовская, 5</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.3500</Buy>
+          <Sell>31.0500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>26.9500</Buy>
+          <Sell>27.2200</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Альфа-Банк</Name>
+      <Id>6</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Б. Васильковская, 100</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.4800</Buy>
+          <Sell>30.8800</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3670</Buy>
+          <Sell>0.3830</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0300</Buy>
+          <Sell>27.2300</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Альянс Банк</Name>
+      <Id>7</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Сечевых Стрельцов, 50</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.0500</Buy>
+          <Sell>30.7500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3500</Buy>
+          <Sell>0.4000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>26.8500</Buy>
+          <Sell>27.1500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Аркада</Name>
+      <Id>8</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул.Ольгинская, 3</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.1000</Buy>
+          <Sell>30.9000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>26.8500</Buy>
+          <Sell>27.2500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Артада</Name>
+      <Id>9</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>район Дворец Украина</Address>
+      <Currencies>
+        <BuySell>
+          <Name>дирхамы ОАЭ</Name>
+          <Id>AED</Id>
+          <Buy>6.7018</Buy>
+          <Sell>6.9977</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>армянские драмы</Name>
+          <Id>AMD</Id>
+          <Buy>0.0423</Buy>
+          <Sell>0.0480</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>австралийские доллары</Name>
+          <Id>AUD</Id>
+          <Buy>18.2602</Buy>
+          <Sell>18.3936</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>азербайджанские манаты</Name>
+          <Id>AZN</Id>
+          <Buy>12.0019</Buy>
+          <Sell>13.8996</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>болгарские левы</Name>
+          <Id>BGN</Id>
+          <Buy>13.0023</Buy>
+          <Sell>15.4978</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>бразильские реалы</Name>
+          <Id>BRL</Id>
+          <Buy>5.0019</Buy>
+          <Sell>7.1980</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>беларуские рубли</Name>
+          <Id>BYN</Id>
+          <Buy>10.2020</Buy>
+          <Sell>10.9991</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>канадские доллары</Name>
+          <Id>CAD</Id>
+          <Buy>19.4007</Buy>
+          <Sell>19.7000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>швейцарские франки</Name>
+          <Id>CHF</Id>
+          <Buy>28.4500</Buy>
+          <Sell>28.5800</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>чилийские песо</Name>
+          <Id>CLP</Id>
+          <Buy>0.0213</Buy>
+          <Sell>0.0480</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>юани Женьминьби (Китай)</Name>
+          <Id>CNY</Id>
+          <Buy>3.5007</Buy>
+          <Sell>3.5982</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>чешские кроны</Name>
+          <Id>CZK</Id>
+          <Buy>1.1106</Buy>
+          <Sell>1.1500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>датские кроны</Name>
+          <Id>DKK</Id>
+          <Buy>3.9305</Buy>
+          <Sell>3.9980</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>египетские фунты</Name>
+          <Id>EGP</Id>
+          <Buy>1.3020</Buy>
+          <Sell>1.4979</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.4500</Buy>
+          <Sell>30.6000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>английские фунты стерлингов</Name>
+          <Id>GBP</Id>
+          <Buy>33.0050</Buy>
+          <Sell>33.5896</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>грузинские лари</Name>
+          <Id>GEL</Id>
+          <Buy>8.0024</Buy>
+          <Sell>9.3987</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>гонконгские доллары</Name>
+          <Id>HKD</Id>
+          <Buy>2.5022</Buy>
+          <Sell>3.1942</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>хорватские куны</Name>
+          <Id>HRK</Id>
+          <Buy>3.4022</Buy>
+          <Sell>3.8980</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>венгерские форинты</Name>
+          <Id>HUF</Id>
+          <Buy>0.0835</Buy>
+          <Sell>0.0854</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>израильские шекели</Name>
+          <Id>ILS</Id>
+          <Buy>6.5015</Buy>
+          <Sell>7.4977</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>индийские рупии</Name>
+          <Id>INR</Id>
+          <Buy>0.2223</Buy>
+          <Sell>0.2980</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>японские иены</Name>
+          <Id>JPY</Id>
+          <Buy>0.2406</Buy>
+          <Sell>0.2440</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>воны Республики Корея</Name>
+          <Id>KRW</Id>
+          <Buy>0.0186</Buy>
+          <Sell>0.0187</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>кувейтские динары</Name>
+          <Id>KWD</Id>
+          <Buy>50.0020</Buy>
+          <Sell>87.9980</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>казахские теньге</Name>
+          <Id>KZT</Id>
+          <Buy>0.0618</Buy>
+          <Sell>0.0636</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>ливанские фунты</Name>
+          <Id>LBP</Id>
+          <Buy>0.0121</Buy>
+          <Sell>0.0169</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>молдавские леи</Name>
+          <Id>MDL</Id>
+          <Buy>1.2031</Buy>
+          <Sell>1.4980</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>мексиканские новые песо</Name>
+          <Id>MXN</Id>
+          <Buy>1.0019</Buy>
+          <Sell>1.3980</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>норвежские кроны</Name>
+          <Id>NOK</Id>
+          <Buy>2.7507</Buy>
+          <Sell>2.8400</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>новозеландские доллары</Name>
+          <Id>NZD</Id>
+          <Buy>15.0027</Buy>
+          <Sell>17.4800</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>польские злотые</Name>
+          <Id>PLN</Id>
+          <Buy>6.7000</Buy>
+          <Sell>6.7500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>новые румынские леи</Name>
+          <Id>RON</Id>
+          <Buy>5.4002</Buy>
+          <Sell>6.1976</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3740</Buy>
+          <Sell>0.3800</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>риалы Саудовской Аравии</Name>
+          <Id>SAR</Id>
+          <Buy>4.5021</Buy>
+          <Sell>6.8980</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>шведские кроны</Name>
+          <Id>SEK</Id>
+          <Buy>2.8306</Buy>
+          <Sell>2.8900</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>сингапурские доллары</Name>
+          <Id>SGD</Id>
+          <Buy>16.5036</Buy>
+          <Sell>18.7881</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>таиландские баты</Name>
+          <Id>THB</Id>
+          <Buy>0.5094</Buy>
+          <Sell>0.8486</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>новые турецкие лиры</Name>
+          <Id>TRY</Id>
+          <Buy>3.1028</Buy>
+          <Sell>3.9800</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>новые тайванские доллары</Name>
+          <Id>TWD</Id>
+          <Buy>0.5038</Buy>
+          <Sell>0.8980</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0700</Buy>
+          <Sell>27.1400</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>вьетнамские донги</Name>
+          <Id>VND</Id>
+          <Buy>0.0009</Buy>
+          <Sell>0.0011</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Асвио Банк</Name>
+      <Id>10</Id>
+      <Region>Черниговская область</Region>
+      <City>Чернигов</City>
+      <Address>ул. Преображенская, 2</Address>
+      <Currencies>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3000</Buy>
+          <Sell>0.4000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>26.9500</Buy>
+          <Sell>27.2000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>БТА Банк</Name>
+      <Id>11</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Д. Щербаковского, 35</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.3000</Buy>
+          <Sell>30.9500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3100</Buy>
+          <Sell>0.3800</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.2500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Банк 3/4</Name>
+      <Id>12</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Кирилловская, 25</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.4000</Buy>
+          <Sell>30.9000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0500</Buy>
+          <Sell>27.2000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Банк Сич</Name>
+      <Id>13</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Владимирская, 63</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.4000</Buy>
+          <Sell>30.6500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>английские фунты стерлингов</Name>
+          <Id>GBP</Id>
+          <Buy>32.7000</Buy>
+          <Sell>34.0000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>польские злотые</Name>
+          <Id>PLN</Id>
+          <Buy>6.3500</Buy>
+          <Sell>6.7500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3650</Buy>
+          <Sell>0.3850</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.1500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Глобус</Name>
+      <Id>14</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>пр. Куреневский, 19/5</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.4000</Buy>
+          <Sell>30.8500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3000</Buy>
+          <Sell>0.3800</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0700</Buy>
+          <Sell>27.2000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Грант</Name>
+      <Id>15</Id>
+      <Region>Харьковская область</Region>
+      <City>Харьков</City>
+      <Address>ул. Данилевского, 19</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.5000</Buy>
+          <Sell>30.7500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3680</Buy>
+          <Sell>0.3830</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.1000</Buy>
+          <Sell>27.2500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Европочта</Name>
+      <Id>16</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>пр. Голосеевский 42</Address>
+      <Currencies>
+        <BuySell>
+          <Name>канадские доллары</Name>
+          <Id>CAD</Id>
+          <Buy>19.0000</Buy>
+          <Sell>19.5000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.4000</Buy>
+          <Sell>30.6500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>английские фунты стерлингов</Name>
+          <Id>GBP</Id>
+          <Buy>33.1000</Buy>
+          <Sell>33.6000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>польские злотые</Name>
+          <Id>PLN</Id>
+          <Buy>6.6000</Buy>
+          <Sell>6.7500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3700</Buy>
+          <Sell>0.3780</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0500</Buy>
+          <Sell>27.2000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Европромбанк</Name>
+      <Id>17</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>бул. Тараса Шевченко, 11, пом.51</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.3000</Buy>
+          <Sell>30.7000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3000</Buy>
+          <Sell>0.4000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.2000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Земельный Капитал</Name>
+      <Id>18</Id>
+      <Region>Днепропетровская область</Region>
+      <City>Днепр</City>
+      <Address>пр. Пушкина, 15</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>29.9000</Buy>
+          <Sell>30.8000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3550</Buy>
+          <Sell>0.3850</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>26.9000</Buy>
+          <Sell>27.4000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Идея Банк</Name>
+      <Id>19</Id>
+      <Region>Львовская область</Region>
+      <City>Львов</City>
+      <Address>ул. Валова, 11</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.4000</Buy>
+          <Sell>30.8000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3000</Buy>
+          <Sell>0.3800</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.3000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Инвестиций и Сбережений</Name>
+      <Id>20</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Юрия Илленка, 83Д </Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.4700</Buy>
+          <Sell>30.6700</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3000</Buy>
+          <Sell>0.3900</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0200</Buy>
+          <Sell>27.1100</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Индустриалбанк</Name>
+      <Id>21</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Генерала Алмазова, 18/7</Address>
+      <Currencies>
+        <BuySell>
+          <Name>австралийские доллары</Name>
+          <Id>AUD</Id>
+          <Buy>17.7000</Buy>
+          <Sell>19.2000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>беларуские рубли</Name>
+          <Id>BYN</Id>
+          <Buy>9.5000</Buy>
+          <Sell>11.5000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>канадские доллары</Name>
+          <Id>CAD</Id>
+          <Buy>18.8000</Buy>
+          <Sell>20.3000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>швейцарские франки</Name>
+          <Id>CHF</Id>
+          <Buy>27.5000</Buy>
+          <Sell>29.2000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.3000</Buy>
+          <Sell>30.9000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>английские фунты стерлингов</Name>
+          <Id>GBP</Id>
+          <Buy>32.7000</Buy>
+          <Sell>34.7000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>венгерские форинты</Name>
+          <Id>HUF</Id>
+          <Buy>0.0700</Buy>
+          <Sell>0.0900</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>польские злотые</Name>
+          <Id>PLN</Id>
+          <Buy>5.6000</Buy>
+          <Sell>6.9000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3550</Buy>
+          <Sell>0.3880</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.2500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Клиринговый Дом</Name>
+      <Id>22</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Борисоглебская, 5А</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.5500</Buy>
+          <Sell>31.0000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3500</Buy>
+          <Sell>0.3900</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.1000</Buy>
+          <Sell>27.3000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>КомИнвестБанк</Name>
+      <Id>23</Id>
+      <Region>Закарпатская область</Region>
+      <City>Ужгород</City>
+      <Address>ул. Гойды, 10</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.3500</Buy>
+          <Sell>30.7500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3500</Buy>
+          <Sell>0.3800</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.2000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Коммерческий Индустриальный Банк</Name>
+      <Id>24</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Бульварно-Кудрявская, 6</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.3500</Buy>
+          <Sell>30.8500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3600</Buy>
+          <Sell>0.3830</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.2500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Конкорд</Name>
+      <Id>25</Id>
+      <Region>Днепропетровская область</Region>
+      <City>Днепр</City>
+      <Address>пл. Троицкая, 2</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.3000</Buy>
+          <Sell>30.8000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.2500</Buy>
+          <Sell>0.3900</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.2000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Креди Агриколь Банк</Name>
+      <Id>26</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Пушкинская, 42/4</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.5500</Buy>
+          <Sell>30.9500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3600</Buy>
+          <Sell>0.3850</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.2700</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Кредит Европа Банк</Name>
+      <Id>27</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Мечникова, 2</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.3000</Buy>
+          <Sell>31.0500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>26.9000</Buy>
+          <Sell>27.3000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Кредитвест Банк</Name>
+      <Id>28</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Леонтовича, 4А, А1</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.5500</Buy>
+          <Sell>30.9000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Кредобанк</Name>
+      <Id>29</Id>
+      <Region>Львовская область</Region>
+      <City>Львов</City>
+      <Address>ул. Сахарова, 78</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.2000</Buy>
+          <Sell>31.0000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0500</Buy>
+          <Sell>27.3500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Кристалбанк</Name>
+      <Id>30</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Кудрявский спуск, 2</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.3500</Buy>
+          <Sell>30.9000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3250</Buy>
+          <Sell>0.3830</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.3000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Львов Банк</Name>
+      <Id>31</Id>
+      <Region>Львовская область</Region>
+      <City>Львов</City>
+      <Address>ул. Сербская, 1</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.4500</Buy>
+          <Sell>30.5500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3710</Buy>
+          <Sell>0.3780</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0700</Buy>
+          <Sell>27.1700</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>МТБ Банк (Марфин Банк)</Name>
+      <Id>32</Id>
+      <Region>Одесская область</Region>
+      <City>Одесса</City>
+      <Address>Польский спуск, 11</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.2000</Buy>
+          <Sell>30.7500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3400</Buy>
+          <Sell>0.3900</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.2000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Маржа</Name>
+      <Id>33</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Б.Хмельницького 3-Б</Address>
+      <Currencies>
+        <BuySell>
+          <Name>австралийские доллары</Name>
+          <Id>AUD</Id>
+          <Buy>17.6000</Buy>
+          <Sell>18.7000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>беларуские рубли</Name>
+          <Id>BYN</Id>
+          <Buy>10.0000</Buy>
+          <Sell>11.2000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>канадские доллары</Name>
+          <Id>CAD</Id>
+          <Buy>19.0000</Buy>
+          <Sell>20.0000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>швейцарские франки</Name>
+          <Id>CHF</Id>
+          <Buy>27.8000</Buy>
+          <Sell>28.9000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>юани Женьминьби (Китай)</Name>
+          <Id>CNY</Id>
+          <Buy>2.9000</Buy>
+          <Sell>3.8000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>чешские кроны</Name>
+          <Id>CZK</Id>
+          <Buy>0.9100</Buy>
+          <Sell>1.1500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>датские кроны</Name>
+          <Id>DKK</Id>
+          <Buy>3.4000</Buy>
+          <Sell>4.1200</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>египетские фунты</Name>
+          <Id>EGP</Id>
+          <Buy>1.2500</Buy>
+          <Sell>1.6900</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.4000</Buy>
+          <Sell>30.6500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>английские фунты стерлингов</Name>
+          <Id>GBP</Id>
+          <Buy>33.5000</Buy>
+          <Sell>34.0000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>венгерские форинты</Name>
+          <Id>HUF</Id>
+          <Buy>0.0730</Buy>
+          <Sell>0.0860</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>израильские шекели</Name>
+          <Id>ILS</Id>
+          <Buy>6.3000</Buy>
+          <Sell>7.8000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>японские иены</Name>
+          <Id>JPY</Id>
+          <Buy>0.2100</Buy>
+          <Sell>0.2530</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>казахские теньге</Name>
+          <Id>KZT</Id>
+          <Buy>0.0480</Buy>
+          <Sell>0.0650</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>молдавские леи</Name>
+          <Id>MDL</Id>
+          <Buy>1.2000</Buy>
+          <Sell>1.5700</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>норвежские кроны</Name>
+          <Id>NOK</Id>
+          <Buy>2.3000</Buy>
+          <Sell>2.8700</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>польские злотые</Name>
+          <Id>PLN</Id>
+          <Buy>6.5000</Buy>
+          <Sell>6.8500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>новые румынские леи</Name>
+          <Id>RON</Id>
+          <Buy>5.4000</Buy>
+          <Sell>6.3000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3700</Buy>
+          <Sell>0.3800</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>шведские кроны</Name>
+          <Id>SEK</Id>
+          <Buy>2.3500</Buy>
+          <Sell>2.9500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>новые турецкие лиры</Name>
+          <Id>TRY</Id>
+          <Buy>3.1000</Buy>
+          <Sell>3.9500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0500</Buy>
+          <Sell>27.1500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Мегабанк</Name>
+      <Id>34</Id>
+      <Region>Харьковская область</Region>
+      <City>Харьков</City>
+      <Address>ул. Алчевских, 30</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.5000</Buy>
+          <Sell>30.7500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3650</Buy>
+          <Sell>0.3850</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0500</Buy>
+          <Sell>27.3000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Международный Инвестиционный Банк</Name>
+      <Id>35</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Лаврская, 16</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.3500</Buy>
+          <Sell>30.9500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3100</Buy>
+          <Sell>0.3900</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.1000</Buy>
+          <Sell>27.2500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>МетаБанк</Name>
+      <Id>36</Id>
+      <Region>Запорожская область</Region>
+      <City>Запорожье</City>
+      <Address>пр. Металлургов, 30</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.3800</Buy>
+          <Sell>30.8100</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3300</Buy>
+          <Sell>0.3830</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0400</Buy>
+          <Sell>27.2300</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Мисто Банк</Name>
+      <Id>37</Id>
+      <Region>Одесская область</Region>
+      <City>Одесса</City>
+      <Address>ул. Фонтанская дорога, 11</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.1000</Buy>
+          <Sell>30.7000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3100</Buy>
+          <Sell>0.3700</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>26.9500</Buy>
+          <Sell>27.3000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>ОКСИ Банк</Name>
+      <Id>38</Id>
+      <Region>Львовская область</Region>
+      <City>Львов</City>
+      <Address>ул. Газовая, 17</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.3700</Buy>
+          <Sell>30.8200</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.2900</Buy>
+          <Sell>0.3800</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>26.9600</Buy>
+          <Sell>27.2100</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>ОТП Банк</Name>
+      <Id>39</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул.Жилянская, 43</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.5000</Buy>
+          <Sell>31.0000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.2500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Ощадбанк</Name>
+      <Id>40</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Госпитальная, 12Г</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>29.8000</Buy>
+          <Sell>30.7500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.2300</Buy>
+          <Sell>0.3880</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>26.8800</Buy>
+          <Sell>27.2800</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>ПОВ №24</Name>
+      <Id>41</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Антоновича, 131-А</Address>
+      <Currencies>
+        <BuySell>
+          <Name>дирхамы ОАЭ</Name>
+          <Id>AED</Id>
+          <Buy>6.7018</Buy>
+          <Sell>6.9977</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>армянские драмы</Name>
+          <Id>AMD</Id>
+          <Buy>0.0423</Buy>
+          <Sell>0.0480</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>австралийские доллары</Name>
+          <Id>AUD</Id>
+          <Buy>18.2602</Buy>
+          <Sell>18.3936</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>азербайджанские манаты</Name>
+          <Id>AZN</Id>
+          <Buy>12.0019</Buy>
+          <Sell>13.8996</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>болгарские левы</Name>
+          <Id>BGN</Id>
+          <Buy>13.0023</Buy>
+          <Sell>15.4978</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>бразильские реалы</Name>
+          <Id>BRL</Id>
+          <Buy>5.0019</Buy>
+          <Sell>7.1980</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>беларуские рубли</Name>
+          <Id>BYN</Id>
+          <Buy>10.2020</Buy>
+          <Sell>10.9991</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>канадские доллары</Name>
+          <Id>CAD</Id>
+          <Buy>19.4007</Buy>
+          <Sell>19.5000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>швейцарские франки</Name>
+          <Id>CHF</Id>
+          <Buy>28.4500</Buy>
+          <Sell>28.5500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>юани Женьминьби (Китай)</Name>
+          <Id>CNY</Id>
+          <Buy>3.5007</Buy>
+          <Sell>3.5982</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>чешские кроны</Name>
+          <Id>CZK</Id>
+          <Buy>1.1106</Buy>
+          <Sell>1.1200</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>датские кроны</Name>
+          <Id>DKK</Id>
+          <Buy>3.9305</Buy>
+          <Sell>3.9980</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>египетские фунты</Name>
+          <Id>EGP</Id>
+          <Buy>1.3020</Buy>
+          <Sell>1.4979</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.5500</Buy>
+          <Sell>30.5550</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>английские фунты стерлингов</Name>
+          <Id>GBP</Id>
+          <Buy>33.5000</Buy>
+          <Sell>33.5896</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>грузинские лари</Name>
+          <Id>GEL</Id>
+          <Buy>8.0024</Buy>
+          <Sell>9.3987</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>гонконгские доллары</Name>
+          <Id>HKD</Id>
+          <Buy>2.5022</Buy>
+          <Sell>3.1942</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>хорватские куны</Name>
+          <Id>HRK</Id>
+          <Buy>3.4022</Buy>
+          <Sell>3.8980</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>венгерские форинты</Name>
+          <Id>HUF</Id>
+          <Buy>0.0835</Buy>
+          <Sell>0.0854</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>израильские шекели</Name>
+          <Id>ILS</Id>
+          <Buy>6.5015</Buy>
+          <Sell>7.4977</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>индийские рупии</Name>
+          <Id>INR</Id>
+          <Buy>0.2223</Buy>
+          <Sell>0.2980</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>японские иены</Name>
+          <Id>JPY</Id>
+          <Buy>0.2406</Buy>
+          <Sell>0.2440</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>воны Республики Корея</Name>
+          <Id>KRW</Id>
+          <Buy>0.0186</Buy>
+          <Sell>0.0187</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>казахские теньге</Name>
+          <Id>KZT</Id>
+          <Buy>0.0618</Buy>
+          <Sell>0.0636</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>молдавские леи</Name>
+          <Id>MDL</Id>
+          <Buy>1.2031</Buy>
+          <Sell>1.4980</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>мексиканские новые песо</Name>
+          <Id>MXN</Id>
+          <Buy>1.0019</Buy>
+          <Sell>1.3980</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>норвежские кроны</Name>
+          <Id>NOK</Id>
+          <Buy>2.7507</Buy>
+          <Sell>2.7984</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>новозеландские доллары</Name>
+          <Id>NZD</Id>
+          <Buy>15.0027</Buy>
+          <Sell>17.4800</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>польские злотые</Name>
+          <Id>PLN</Id>
+          <Buy>6.7000</Buy>
+          <Sell>6.7200</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>новые румынские леи</Name>
+          <Id>RON</Id>
+          <Buy>5.4002</Buy>
+          <Sell>6.1976</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3740</Buy>
+          <Sell>0.3780</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>риалы Саудовской Аравии</Name>
+          <Id>SAR</Id>
+          <Buy>4.5021</Buy>
+          <Sell>6.8980</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>шведские кроны</Name>
+          <Id>SEK</Id>
+          <Buy>2.8306</Buy>
+          <Sell>2.8490</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>сингапурские доллары</Name>
+          <Id>SGD</Id>
+          <Buy>16.5036</Buy>
+          <Sell>18.7881</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>таиландские баты</Name>
+          <Id>THB</Id>
+          <Buy>0.5094</Buy>
+          <Sell>0.8486</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>новые турецкие лиры</Name>
+          <Id>TRY</Id>
+          <Buy>3.1028</Buy>
+          <Sell>3.9470</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>новые тайванские доллары</Name>
+          <Id>TWD</Id>
+          <Buy>0.5038</Buy>
+          <Sell>0.8980</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.1200</Buy>
+          <Sell>27.1400</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>вьетнамские донги</Name>
+          <Id>VND</Id>
+          <Buy>0.0009</Buy>
+          <Sell>0.0011</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>ПОВ №45</Name>
+      <Id>42</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Медовая, 19-а</Address>
+      <Currencies>
+        <BuySell>
+          <Name>дирхамы ОАЭ</Name>
+          <Id>AED</Id>
+          <Buy>6.5000</Buy>
+          <Sell>7.0000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>армянские драмы</Name>
+          <Id>AMD</Id>
+          <Buy>0.0340</Buy>
+          <Sell>0.0500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>австралийские доллары</Name>
+          <Id>AUD</Id>
+          <Buy>17.5000</Buy>
+          <Sell>18.8000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>азербайджанские манаты</Name>
+          <Id>AZN</Id>
+          <Buy>12.0000</Buy>
+          <Sell>13.9000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>болгарские левы</Name>
+          <Id>BGN</Id>
+          <Buy>13.0000</Buy>
+          <Sell>15.5000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>бразильские реалы</Name>
+          <Id>BRL</Id>
+          <Buy>5.0000</Buy>
+          <Sell>7.2000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>беларуские рубли</Name>
+          <Id>BYN</Id>
+          <Buy>10.2000</Buy>
+          <Sell>11.3000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>канадские доллары</Name>
+          <Id>CAD</Id>
+          <Buy>18.7000</Buy>
+          <Sell>19.9000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>швейцарские франки</Name>
+          <Id>CHF</Id>
+          <Buy>27.5000</Buy>
+          <Sell>29.0000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>чилийские песо</Name>
+          <Id>CLP</Id>
+          <Buy>0.0200</Buy>
+          <Sell>0.0490</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>юани Женьминьби (Китай)</Name>
+          <Id>CNY</Id>
+          <Buy>3.2000</Buy>
+          <Sell>3.6000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>чешские кроны</Name>
+          <Id>CZK</Id>
+          <Buy>1.0500</Buy>
+          <Sell>1.2000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>датские кроны</Name>
+          <Id>DKK</Id>
+          <Buy>3.8000</Buy>
+          <Sell>4.0000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>египетские фунты</Name>
+          <Id>EGP</Id>
+          <Buy>1.3000</Buy>
+          <Sell>1.5000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>английские фунты стерлингов</Name>
+          <Id>GBP</Id>
+          <Buy>32.5000</Buy>
+          <Sell>34.0000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>грузинские лари</Name>
+          <Id>GEL</Id>
+          <Buy>8.0000</Buy>
+          <Sell>9.5000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>гонконгские доллары</Name>
+          <Id>HKD</Id>
+          <Buy>2.5000</Buy>
+          <Sell>3.2000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>хорватские куны</Name>
+          <Id>HRK</Id>
+          <Buy>3.4000</Buy>
+          <Sell>4.0000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>венгерские форинты</Name>
+          <Id>HUF</Id>
+          <Buy>0.0750</Buy>
+          <Sell>0.1000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>израильские шекели</Name>
+          <Id>ILS</Id>
+          <Buy>6.3500</Buy>
+          <Sell>7.5000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>индийские рупии</Name>
+          <Id>INR</Id>
+          <Buy>0.2200</Buy>
+          <Sell>0.3000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>иракские динары</Name>
+          <Id>IQD</Id>
+          <Buy>0.0120</Buy>
+          <Sell>0.0250</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>японские иены</Name>
+          <Id>JPY</Id>
+          <Buy>0.2100</Buy>
+          <Sell>0.2600</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>сомы Кыргызстана</Name>
+          <Id>KGS</Id>
+          <Buy>0.1900</Buy>
+          <Sell>0.3000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>воны Республики Корея</Name>
+          <Id>KRW</Id>
+          <Buy>0.0120</Buy>
+          <Sell>0.0200</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>кувейтские динары</Name>
+          <Id>KWD</Id>
+          <Buy>50.0000</Buy>
+          <Sell>88.0000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>казахские теньге</Name>
+          <Id>KZT</Id>
+          <Buy>0.0550</Buy>
+          <Sell>0.0660</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>ливанские фунты</Name>
+          <Id>LBP</Id>
+          <Buy>0.0110</Buy>
+          <Sell>0.0180</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>молдавские леи</Name>
+          <Id>MDL</Id>
+          <Buy>1.2000</Buy>
+          <Sell>1.5000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>мексиканские новые песо</Name>
+          <Id>MXN</Id>
+          <Buy>1.0000</Buy>
+          <Sell>1.4000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>норвежские кроны</Name>
+          <Id>NOK</Id>
+          <Buy>2.6000</Buy>
+          <Sell>2.8500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>новозеландские доллары</Name>
+          <Id>NZD</Id>
+          <Buy>15.0000</Buy>
+          <Sell>17.5000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>пакистанские рупии</Name>
+          <Id>PKR</Id>
+          <Buy>0.1200</Buy>
+          <Sell>0.2200</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>польские злотые</Name>
+          <Id>PLN</Id>
+          <Buy>6.3000</Buy>
+          <Sell>6.7000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>новые румынские леи</Name>
+          <Id>RON</Id>
+          <Buy>5.2500</Buy>
+          <Sell>7.0000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3700</Buy>
+          <Sell>0.3850</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>риалы Саудовской Аравии</Name>
+          <Id>SAR</Id>
+          <Buy>4.5000</Buy>
+          <Sell>6.9000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>шведские кроны</Name>
+          <Id>SEK</Id>
+          <Buy>2.5000</Buy>
+          <Sell>2.9000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>сингапурские доллары</Name>
+          <Id>SGD</Id>
+          <Buy>16.5000</Buy>
+          <Sell>18.8000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>таиландские баты</Name>
+          <Id>THB</Id>
+          <Buy>0.5000</Buy>
+          <Sell>0.8500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>таджикские сомоны</Name>
+          <Id>TJS</Id>
+          <Buy>1.5000</Buy>
+          <Sell>3.6000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>новые турецкие лиры</Name>
+          <Id>TRY</Id>
+          <Buy>3.1000</Buy>
+          <Sell>4.0000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>новые тайванские доллары</Name>
+          <Id>TWD</Id>
+          <Buy>0.5000</Buy>
+          <Sell>0.9000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>вьетнамские донги</Name>
+          <Id>VND</Id>
+          <Buy>0.0008</Buy>
+          <Sell>0.0011</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>ПОВ №8</Name>
+      <Id>43</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. В. Гетьмана, 10/37</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.4000</Buy>
+          <Sell>30.5500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>английские фунты стерлингов</Name>
+          <Id>GBP</Id>
+          <Buy>33.5000</Buy>
+          <Sell>33.6500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>польские злотые</Name>
+          <Id>PLN</Id>
+          <Buy>6.7000</Buy>
+          <Sell>6.7500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3740</Buy>
+          <Sell>0.3780</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0700</Buy>
+          <Sell>27.1500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>ПОВ №9</Name>
+      <Id>44</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>м."Олимпийская"</Address>
+      <Currencies>
+        <BuySell>
+          <Name>швейцарские франки</Name>
+          <Id>CHF</Id>
+          <Buy>28.4000</Buy>
+          <Sell>28.9000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.5300</Buy>
+          <Sell>30.6800</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>английские фунты стерлингов</Name>
+          <Id>GBP</Id>
+          <Buy>33.5000</Buy>
+          <Sell>34.2000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3740</Buy>
+          <Sell>0.3820</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.1000</Buy>
+          <Sell>27.2000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>ПУМБ</Name>
+      <Id>45</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Андреевская, 4</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.2500</Buy>
+          <Sell>30.7500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.2500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Первый Инвестиционный Банк</Name>
+      <Id>46</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>пл. Победы, 1</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.5000</Buy>
+          <Sell>31.0000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.2500</Buy>
+          <Sell>0.3870</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.3000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Пивденный</Name>
+      <Id>47</Id>
+      <Region>Одесская область</Region>
+      <City>Одесса</City>
+      <Address>ул. Краснова, 6/1</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.5000</Buy>
+          <Sell>31.0500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3300</Buy>
+          <Sell>0.3900</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.2500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Пиреус Банк </Name>
+      <Id>48</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Ильинская, 8</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.3500</Buy>
+          <Sell>30.9500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3550</Buy>
+          <Sell>0.3850</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>26.9500</Buy>
+          <Sell>27.2500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Поликомбанк</Name>
+      <Id>49</Id>
+      <Region>Черниговская область</Region>
+      <City>Чернигов</City>
+      <Address>ул. Молодчего, 46</Address>
+      <Currencies>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3680</Buy>
+          <Sell>0.3800</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>26.9500</Buy>
+          <Sell>27.3000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Полтава-Банк</Name>
+      <Id>50</Id>
+      <Region>Полтавская область</Region>
+      <City>Полтава</City>
+      <Address>ул. Филиппа Орлика, 40A</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.2600</Buy>
+          <Sell>30.6400</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3730</Buy>
+          <Sell>0.3780</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.1000</Buy>
+          <Sell>27.2900</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Портал</Name>
+      <Id>51</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>пр. Победы, 5А</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.1500</Buy>
+          <Sell>30.7500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>26.9000</Buy>
+          <Sell>27.2500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Правэкс Банк</Name>
+      <Id>52</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>Кловский спуск, 9/2</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.1500</Buy>
+          <Sell>30.8500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3400</Buy>
+          <Sell>0.4000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>26.9500</Buy>
+          <Sell>27.2500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>ПриватБанк</Name>
+      <Id>53</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Грушевского, 1Д</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.3000</Buy>
+          <Sell>30.9600</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3600</Buy>
+          <Sell>0.3900</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>26.9000</Buy>
+          <Sell>27.3300</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Радабанк</Name>
+      <Id>54</Id>
+      <Region>Днепропетровская область</Region>
+      <City>Днепр</City>
+      <Address>пр. А. Поля, 46</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.5000</Buy>
+          <Sell>30.7000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3670</Buy>
+          <Sell>0.3820</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.1000</Buy>
+          <Sell>27.2000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Райффайзен Банк Аваль</Name>
+      <Id>55</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Лeскова, 9</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.5000</Buy>
+          <Sell>30.9700</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3760</Buy>
+          <Sell>0.3860</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.3000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Сбербанк</Name>
+      <Id>56</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Владимирская, 46</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.4500</Buy>
+          <Sell>30.8500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3660</Buy>
+          <Sell>0.3960</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0400</Buy>
+          <Sell>27.1900</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>ТОВ ФК Магнат</Name>
+      <Id>57</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Михаила Бойчука 31</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.5500</Buy>
+          <Sell>30.6100</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>английские фунты стерлингов</Name>
+          <Id>GBP</Id>
+          <Buy>32.3000</Buy>
+          <Sell>33.7000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>польские злотые</Name>
+          <Id>PLN</Id>
+          <Buy>6.4500</Buy>
+          <Sell>6.6500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3740</Buy>
+          <Sell>0.3790</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.1100</Buy>
+          <Sell>27.1700</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Таскомбанк</Name>
+      <Id>58</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. С.Петлюры, 30</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.5550</Buy>
+          <Sell>30.7800</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3700</Buy>
+          <Sell>0.3900</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0500</Buy>
+          <Sell>27.1500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Траст-капитал</Name>
+      <Id>59</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Подвысоцкого, 7</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.4000</Buy>
+          <Sell>30.6500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3600</Buy>
+          <Sell>0.3900</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.2500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Укргазбанк</Name>
+      <Id>60</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Богдана Хмельницкого, 16-22</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.3000</Buy>
+          <Sell>30.7000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3000</Buy>
+          <Sell>0.3900</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.2000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Укрсиббанк</Name>
+      <Id>61</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Андреевская, 2/12</Address>
+      <Currencies>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3730</Buy>
+          <Sell>0.3870</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>26.9500</Buy>
+          <Sell>27.3000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Укрстройинвестбанк</Name>
+      <Id>62</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Вячеслава Черновола, 8</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.4000</Buy>
+          <Sell>30.8000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3700</Buy>
+          <Sell>0.3850</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0000</Buy>
+          <Sell>27.2000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Укрэксимбанк</Name>
+      <Id>63</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Антоновича, 127</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.4000</Buy>
+          <Sell>31.0400</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.2720</Buy>
+          <Sell>0.3870</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>26.9000</Buy>
+          <Sell>27.2500</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Универсал Банк</Name>
+      <Id>64</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Автозаводская, 54/19</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.1500</Buy>
+          <Sell>30.8500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>26.9000</Buy>
+          <Sell>27.2000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>ФК «Премиум Финанс»</Name>
+      <Id>65</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>бул. Леси Украинки, 24 , магазин "АЛЛО"" - 50.428138, 30.537715</Address>
+      <Currencies>
+        <BuySell>
+          <Name>дирхамы ОАЭ</Name>
+          <Id>AED</Id>
+          <Buy>6.7018</Buy>
+          <Sell>6.9982</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>армянские драмы</Name>
+          <Id>AMD</Id>
+          <Buy>0.0422</Buy>
+          <Sell>0.0485</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>австралийские доллары</Name>
+          <Id>AUD</Id>
+          <Buy>18.2503</Buy>
+          <Sell>18.6000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>азербайджанские манаты</Name>
+          <Id>AZN</Id>
+          <Buy>12.0019</Buy>
+          <Sell>13.9992</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>болгарские левы</Name>
+          <Id>BGN</Id>
+          <Buy>13.0023</Buy>
+          <Sell>15.4983</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>бразильские реалы</Name>
+          <Id>BRL</Id>
+          <Buy>5.0019</Buy>
+          <Sell>7.2000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>беларуские рубли</Name>
+          <Id>BYN</Id>
+          <Buy>10.2017</Buy>
+          <Sell>10.9996</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>канадские доллары</Name>
+          <Id>CAD</Id>
+          <Buy>19.4003</Buy>
+          <Sell>19.7000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>швейцарские франки</Name>
+          <Id>CHF</Id>
+          <Buy>28.4500</Buy>
+          <Sell>28.6900</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>чилийские песо</Name>
+          <Id>CLP</Id>
+          <Buy>0.0213</Buy>
+          <Sell>0.0500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>юани Женьминьби (Китай)</Name>
+          <Id>CNY</Id>
+          <Buy>3.5007</Buy>
+          <Sell>3.5987</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>чешские кроны</Name>
+          <Id>CZK</Id>
+          <Buy>1.1102</Buy>
+          <Sell>1.1300</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>датские кроны</Name>
+          <Id>DKK</Id>
+          <Buy>3.9003</Buy>
+          <Sell>3.9985</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>египетские фунты</Name>
+          <Id>EGP</Id>
+          <Buy>1.3020</Buy>
+          <Sell>1.4984</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.5000</Buy>
+          <Sell>30.7000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>английские фунты стерлингов</Name>
+          <Id>GBP</Id>
+          <Buy>33.5000</Buy>
+          <Sell>33.8000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>грузинские лари</Name>
+          <Id>GEL</Id>
+          <Buy>8.0024</Buy>
+          <Sell>9.3992</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>гонконгские доллары</Name>
+          <Id>HKD</Id>
+          <Buy>2.5022</Buy>
+          <Sell>3.1947</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>хорватские куны</Name>
+          <Id>HRK</Id>
+          <Buy>3.4022</Buy>
+          <Sell>3.8985</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>венгерские форинты</Name>
+          <Id>HUF</Id>
+          <Buy>0.0831</Buy>
+          <Sell>0.0859</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>израильские шекели</Name>
+          <Id>ILS</Id>
+          <Buy>6.5015</Buy>
+          <Sell>7.4982</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>индийские рупии</Name>
+          <Id>INR</Id>
+          <Buy>0.2223</Buy>
+          <Sell>0.2984</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>японские иены</Name>
+          <Id>JPY</Id>
+          <Buy>0.2403</Buy>
+          <Sell>0.2449</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>воны Республики Корея</Name>
+          <Id>KRW</Id>
+          <Buy>0.0186</Buy>
+          <Sell>0.0189</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>кувейтские динары</Name>
+          <Id>KWD</Id>
+          <Buy>50.0020</Buy>
+          <Sell>88.0000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>казахские теньге</Name>
+          <Id>KZT</Id>
+          <Buy>0.0618</Buy>
+          <Sell>0.0641</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>ливанские фунты</Name>
+          <Id>LBP</Id>
+          <Buy>0.0121</Buy>
+          <Sell>0.0173</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>молдавские леи</Name>
+          <Id>MDL</Id>
+          <Buy>1.2031</Buy>
+          <Sell>1.4985</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>мексиканские новые песо</Name>
+          <Id>MXN</Id>
+          <Buy>1.0019</Buy>
+          <Sell>1.3984</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>норвежские кроны</Name>
+          <Id>NOK</Id>
+          <Buy>2.7503</Buy>
+          <Sell>2.7984</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>новозеландские доллары</Name>
+          <Id>NZD</Id>
+          <Buy>15.0027</Buy>
+          <Sell>17.6000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>польские злотые</Name>
+          <Id>PLN</Id>
+          <Buy>6.7000</Buy>
+          <Sell>6.8000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>новые румынские леи</Name>
+          <Id>RON</Id>
+          <Buy>5.4000</Buy>
+          <Sell>6.1981</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3740</Buy>
+          <Sell>0.3780</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>риалы Саудовской Аравии</Name>
+          <Id>SAR</Id>
+          <Buy>4.5021</Buy>
+          <Sell>6.8985</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>шведские кроны</Name>
+          <Id>SEK</Id>
+          <Buy>2.8302</Buy>
+          <Sell>2.8490</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>сингапурские доллары</Name>
+          <Id>SGD</Id>
+          <Buy>16.5036</Buy>
+          <Sell>18.7886</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>таиландские баты</Name>
+          <Id>THB</Id>
+          <Buy>0.5093</Buy>
+          <Sell>0.8491</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>новые турецкие лиры</Name>
+          <Id>TRY</Id>
+          <Buy>3.1027</Buy>
+          <Sell>3.9470</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>новые тайванские доллары</Name>
+          <Id>TWD</Id>
+          <Buy>0.5038</Buy>
+          <Sell>0.8985</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0800</Buy>
+          <Sell>27.1700</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>вьетнамские донги</Name>
+          <Id>VND</Id>
+          <Buy>0.0009</Buy>
+          <Sell>0.0011</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>ФК ДСД ФИНАНС</Name>
+      <Id>66</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Саксаганского, 59-б</Address>
+      <Currencies>
+        <BuySell>
+          <Name>азербайджанские манаты</Name>
+          <Id>AZN</Id>
+          <Buy>12.0000</Buy>
+          <Sell>14.0000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>канадские доллары</Name>
+          <Id>CAD</Id>
+          <Buy>19.4000</Buy>
+          <Sell>19.8000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>швейцарские франки</Name>
+          <Id>CHF</Id>
+          <Buy>28.4000</Buy>
+          <Sell>28.6000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>чешские кроны</Name>
+          <Id>CZK</Id>
+          <Buy>1.0800</Buy>
+          <Sell>1.1200</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.5000</Buy>
+          <Sell>30.6000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>английские фунты стерлингов</Name>
+          <Id>GBP</Id>
+          <Buy>33.4000</Buy>
+          <Sell>33.7000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>японские иены</Name>
+          <Id>JPY</Id>
+          <Buy>0.2100</Buy>
+          <Sell>0.3000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>польские злотые</Name>
+          <Id>PLN</Id>
+          <Buy>6.6500</Buy>
+          <Sell>6.7500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.1000</Buy>
+          <Sell>27.1400</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Форвард</Name>
+      <Id>67</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Саксаганского, 105</Address>
+      <Currencies>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>30.3000</Buy>
+          <Sell>30.9500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3000</Buy>
+          <Sell>0.5000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>26.9000</Buy>
+          <Sell>27.3000</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+    <Organization>
+      <Name>Юнекс Банк</Name>
+      <Id>68</Id>
+      <Region>Киев</Region>
+      <City>Киев</City>
+      <Address>ул. Почайнинская, 38</Address>
+      <Currencies>
+        <BuySell>
+          <Name>швейцарские франки</Name>
+          <Id>CHF</Id>
+          <Buy>27.8000</Buy>
+          <Sell>28.8000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>чешские кроны</Name>
+          <Id>CZK</Id>
+          <Buy>0.8000</Buy>
+          <Sell>1.1500</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>ЕВРО</Name>
+          <Id>EUR</Id>
+          <Buy>29.3000</Buy>
+          <Sell>30.8600</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>английские фунты стерлингов</Name>
+          <Id>GBP</Id>
+          <Buy>33.0000</Buy>
+          <Sell>34.0000</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>польские злотые</Name>
+          <Id>PLN</Id>
+          <Buy>6.3800</Buy>
+          <Sell>6.8800</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>российские рубли</Name>
+          <Id>RUB</Id>
+          <Buy>0.3500</Buy>
+          <Sell>0.3800</Sell>
+        </BuySell>
+        <BuySell>
+          <Name>доллары США</Name>
+          <Id>USD</Id>
+          <Buy>27.0600</Buy>
+          <Sell>27.1300</Sell>
+        </BuySell>
+      </Currencies>
+    </Organization>
+  </Organizations>
+  <Currencies>
+    <Currency>
+      <Name>дирхамы ОАЭ</Name>
+      <Id>AED</Id>
+    </Currency>
+    <Currency>
+      <Name>армянские драмы</Name>
+      <Id>AMD</Id>
+    </Currency>
+    <Currency>
+      <Name>австралийские доллары</Name>
+      <Id>AUD</Id>
+    </Currency>
+    <Currency>
+      <Name>азербайджанские манаты</Name>
+      <Id>AZN</Id>
+    </Currency>
+    <Currency>
+      <Name>болгарские левы</Name>
+      <Id>BGN</Id>
+    </Currency>
+    <Currency>
+      <Name>бразильские реалы</Name>
+      <Id>BRL</Id>
+    </Currency>
+    <Currency>
+      <Name>беларуские рубли</Name>
+      <Id>BYN</Id>
+    </Currency>
+    <Currency>
+      <Name>канадские доллары</Name>
+      <Id>CAD</Id>
+    </Currency>
+    <Currency>
+      <Name>швейцарские франки</Name>
+      <Id>CHF</Id>
+    </Currency>
+    <Currency>
+      <Name>чилийские песо</Name>
+      <Id>CLP</Id>
+    </Currency>
+    <Currency>
+      <Name>юани Женьминьби (Китай)</Name>
+      <Id>CNY</Id>
+    </Currency>
+    <Currency>
+      <Name>чешские кроны</Name>
+      <Id>CZK</Id>
+    </Currency>
+    <Currency>
+      <Name>датские кроны</Name>
+      <Id>DKK</Id>
+    </Currency>
+    <Currency>
+      <Name>египетские фунты</Name>
+      <Id>EGP</Id>
+    </Currency>
+    <Currency>
+      <Name>ЕВРО</Name>
+      <Id>EUR</Id>
+    </Currency>
+    <Currency>
+      <Name>английские фунты стерлингов</Name>
+      <Id>GBP</Id>
+    </Currency>
+    <Currency>
+      <Name>грузинские лари</Name>
+      <Id>GEL</Id>
+    </Currency>
+    <Currency>
+      <Name>гонконгские доллары</Name>
+      <Id>HKD</Id>
+    </Currency>
+    <Currency>
+      <Name>хорватские куны</Name>
+      <Id>HRK</Id>
+    </Currency>
+    <Currency>
+      <Name>венгерские форинты</Name>
+      <Id>HUF</Id>
+    </Currency>
+    <Currency>
+      <Name>израильские шекели</Name>
+      <Id>ILS</Id>
+    </Currency>
+    <Currency>
+      <Name>индийские рупии</Name>
+      <Id>INR</Id>
+    </Currency>
+    <Currency>
+      <Name>иракские динары</Name>
+      <Id>IQD</Id>
+    </Currency>
+    <Currency>
+      <Name>японские иены</Name>
+      <Id>JPY</Id>
+    </Currency>
+    <Currency>
+      <Name>сомы Кыргызстана</Name>
+      <Id>KGS</Id>
+    </Currency>
+    <Currency>
+      <Name>воны Республики Корея</Name>
+      <Id>KRW</Id>
+    </Currency>
+    <Currency>
+      <Name>кувейтские динары</Name>
+      <Id>KWD</Id>
+    </Currency>
+    <Currency>
+      <Name>казахские теньге</Name>
+      <Id>KZT</Id>
+    </Currency>
+    <Currency>
+      <Name>ливанские фунты</Name>
+      <Id>LBP</Id>
+    </Currency>
+    <Currency>
+      <Name>молдавские леи</Name>
+      <Id>MDL</Id>
+    </Currency>
+    <Currency>
+      <Name>мексиканские новые песо</Name>
+      <Id>MXN</Id>
+    </Currency>
+    <Currency>
+      <Name>норвежские кроны</Name>
+      <Id>NOK</Id>
+    </Currency>
+    <Currency>
+      <Name>новозеландские доллары</Name>
+      <Id>NZD</Id>
+    </Currency>
+    <Currency>
+      <Name>пакистанские рупии</Name>
+      <Id>PKR</Id>
+    </Currency>
+    <Currency>
+      <Name>польские злотые</Name>
+      <Id>PLN</Id>
+    </Currency>
+    <Currency>
+      <Name>новые румынские леи</Name>
+      <Id>RON</Id>
+    </Currency>
+    <Currency>
+      <Name>российские рубли</Name>
+      <Id>RUB</Id>
+    </Currency>
+    <Currency>
+      <Name>риалы Саудовской Аравии</Name>
+      <Id>SAR</Id>
+    </Currency>
+    <Currency>
+      <Name>шведские кроны</Name>
+      <Id>SEK</Id>
+    </Currency>
+    <Currency>
+      <Name>сингапурские доллары</Name>
+      <Id>SGD</Id>
+    </Currency>
+    <Currency>
+      <Name>таиландские баты</Name>
+      <Id>THB</Id>
+    </Currency>
+    <Currency>
+      <Name>таджикские сомоны</Name>
+      <Id>TJS</Id>
+    </Currency>
+    <Currency>
+      <Name>новые турецкие лиры</Name>
+      <Id>TRY</Id>
+    </Currency>
+    <Currency>
+      <Name>новые тайванские доллары</Name>
+      <Id>TWD</Id>
+    </Currency>
+    <Currency>
+      <Name>доллары США</Name>
+      <Id>USD</Id>
+    </Currency>
+    <Currency>
+      <Name>вьетнамские донги</Name>
+      <Id>VND</Id>
+    </Currency>
+  </Currencies>
+  <Cities>
+    <City>
+      <Name>Днепр</Name>
+      <Id>7oiylpmiow8iy1smadm</Id>
+    </City>
+    <City>
+      <Name>Запорожье</Name>
+      <Id>7oiylpmiow8iy1smadn</Id>
+    </City>
+    <City>
+      <Name>Киев</Name>
+      <Id>7oiylpmiow8iy1smadi</Id>
+    </City>
+    <City>
+      <Name>Львов</Name>
+      <Id>7oiylpmiow8iy1smadr</Id>
+    </City>
+    <City>
+      <Name>Одесса</Name>
+      <Id>7oiylpmiow8iy1smadk</Id>
+    </City>
+    <City>
+      <Name>Полтава</Name>
+      <Id>7oiylpmiow8iy1smadx</Id>
+    </City>
+    <City>
+      <Name>Ужгород</Name>
+      <Id>7oiylpmiow8iy1smadp</Id>
+    </City>
+    <City>
+      <Name>Харьков</Name>
+      <Id>7oiylpmiow8iy1smadj</Id>
+    </City>
+    <City>
+      <Name>Чернигов</Name>
+      <Id>7oiylpmiow8iy1smaec</Id>
+    </City>
+  </Cities>
+  <Regions>
+    <Region>
+      <Name>Винницкая область</Name>
+      <Id>ua,7oiylpmiow8iy1smac8</Id>
+    </Region>
+    <Region>
+      <Name>Днепропетровская область</Name>
+      <Id>ua,7oiylpmiow8iy1smaci</Id>
+    </Region>
+    <Region>
+      <Name>Закарпатская область</Name>
+      <Id>ua,7oiylpmiow8iy1smabz</Id>
+    </Region>
+    <Region>
+      <Name>Запорожская область</Name>
+      <Id>ua,7oiylpmiow8iy1smack</Id>
+    </Region>
+    <Region>
+      <Name>Ивано-Франковская область</Name>
+      <Id>ua,7oiylpmiow8iy1smac2</Id>
+    </Region>
+    <Region>
+      <Name>Киев</Name>
+      <Id>ua,0,7oiylpmiow8iy1smadi</Id>
+    </Region>
+    <Region>
+      <Name>Львовская область</Name>
+      <Id>ua,7oiylpmiow8iy1smac0</Id>
+    </Region>
+    <Region>
+      <Name>Николаевская область</Name>
+      <Id>ua,7oiylpmiow8iy1smacd</Id>
+    </Region>
+    <Region>
+      <Name>Одесская область</Name>
+      <Id>ua,7oiylpmiow8iy1smacc</Id>
+    </Region>
+    <Region>
+      <Name>Полтавская область</Name>
+      <Id>ua,7oiylpmiow8iy1smacf</Id>
+    </Region>
+    <Region>
+      <Name>Сумская область</Name>
+      <Id>ua,7oiylpmiow8iy1smacg</Id>
+    </Region>
+    <Region>
+      <Name>Тернопольская область</Name>
+      <Id>ua,7oiylpmiow8iy1smac3</Id>
+    </Region>
+    <Region>
+      <Name>Харьковская область</Name>
+      <Id>ua,7oiylpmiow8iy1smacj</Id>
+    </Region>
+    <Region>
+      <Name>Черниговская область</Name>
+      <Id>ua,7oiylpmiow8iy1smaca</Id>
+    </Region>
+  </Regions>
+</SourceData>

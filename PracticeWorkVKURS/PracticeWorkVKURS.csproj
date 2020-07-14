@@ -46,11 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class\Bank.cs" />
-    <Compile Include="Class\Currency.cs" />
     <Compile Include="Class\ExchangeRates.cs" />
     <Compile Include="Class\DataParseXml.cs" />
-    <Compile Include="Class\Serialization.cs" />
+    <Compile Include="Class\SourceData.cs" />
     <Compile Include="GeneralWindow.cs">
       <SubType>Form</SubType>
     </Compile>
